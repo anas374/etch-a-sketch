@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <script src="./js/main.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Etch-a-Sketch</h1>
+    <div class="etch-a-sketch">
+        <div class="left">
+            <span>Modifier</span>
+            <div>
+                <label for="gridSize">Grid Size:</label>
+                <input type="text" name="gridSize" id="gridSize">
+                <input type="button" value="Change">
+            </div>
+            <div>
+                <label for="color">Color: </label>
+                <input type="color" name="color" id="color">
+            </div>
+            <div>
+                <label for="randomize">Randomize Color</label>
+                <input type="checkbox" name="randomize" id="randomize">
+            </div>
+        </div>
+        <div class="right">
+            <span>Canvas</span>
+            <div class="canvas"></div>
+        </div>
+    </div>
+</body>
+</html>
