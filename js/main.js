@@ -5,7 +5,7 @@ let randomizeColor = false;
 function gridBuilder (gridSize) {
     destroy();
     gridSize = parseInt(gridSize);
-
+    if (gridSize > 100) gridSize = 100;
     for (let i = 0; i < gridSize; i++) {
         const gridRow = document.createElement("div");
         gridRow.style.display = "flex";
