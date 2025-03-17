@@ -22,6 +22,34 @@ h1 {
     padding: 1rem 0;
 }
 
+button {
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: white;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #191A23;
+    box-shadow: 0.25rem 0.25rem 0 0 #191A23;
+    margin: 0.4rem 1rem;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+.left div:nth-child(1) {
+    display: inline-flex;
+    width: 100%;
+}
+
+input[type="color"] {
+    position: relative;
+    box-shadow: 0.25rem 0.25rem 0 0 #191A23;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.2rem 0.2rem;
+    width: 96%;
+}
+
 .etch-a-sketch {
     display: flex;
     flex-grow: 1;

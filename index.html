@@ -12,19 +12,10 @@
     <div class="etch-a-sketch">
         <div class="left">
             <span>Modifier</span>
-            <div>
-                <label for="gridSize">Grid Size:</label>
-                <input type="text" name="gridSize" id="gridSize">
-                <input type="button" value="Change">
-            </div>
-            <div>
-                <label for="color">Color: </label>
-                <input type="color" name="color" id="color">
-            </div>
-            <div>
-                <label for="randomize">Randomize Color</label>
-                <input type="checkbox" name="randomize" id="randomize">
-            </div>
+            <div><input type="color" name="color" id="color"></div>
+            <button type="button" id="change-size">Change Size</button>
+            <button type="button" id="random-color">Randomize Color</button>
+            <button type="button" id="clear-canvas">Clear Canvas</button>
         </div>
         <div class="right">
             <span>Canvas</span>
